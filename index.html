@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Estructuración de una Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ecf0f1;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Estructuración de una Página Web</h1>
+    </header>
+
+    <section>
+        <h2>Tablas en HTML</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Etiqueta table</td>
+                    <td>Define una tabla en HTML.</td>
+                </tr>
+                <tr>
+                    <td>Atributos de table</td>
+                    <td>Atributos como border, cellspacing, y cellpadding para definir el estilo de la tabla.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta tr</td>
+                    <td>Define una fila en la tabla.</td>
+                </tr>
+                <tr>
+                    <td>Atributo tr</td>
+                    <td>Atributos como align y valign para alinear el contenido.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta td y th</td>
+                    <td>Define celdas de datos (td) y celdas de encabezado (th).</td>
+                </tr>
+                <tr>
+                    <td>Atributos de td y th</td>
+                    <td>Atributos como colspan y rowspan para combinar celdas.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta thead</td>
+                    <td>Define el encabezado de la tabla.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta tfoot</td>
+                    <td>Define el pie de la tabla.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta tbody</td>
+                    <td>Define el cuerpo de la tabla.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Formulario en HTML</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Etiqueta form</td>
+                    <td>Define un formulario para recoger datos del usuario.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta input</td>
+                    <td>Define un campo de entrada de datos.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta label</td>
+                    <td>Asocia una etiqueta con un elemento de formulario.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta select</td>
+                    <td>Define un menú desplegable.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta textarea</td>
+                    <td>Define un área de texto para entrada de múltiples líneas.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta fieldset</td>
+                    <td>Agrupa elementos de un formulario.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta legend</td>
+                    <td>Proporciona un título para un fieldset.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta meter</td>
+                    <td>Representa un valor en un rango conocido.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta progress</td>
+                    <td>Indica el progreso de una tarea.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta datalist</td>
+                    <td>Define una lista de opciones predefinidas para un campo de entrada.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta summary</td>
+                    <td>Proporciona un resumen visible para un elemento details.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Estructuración de una Página Web</h2>
+        <ul>
+            <li><strong>Contenedor (wrapper)</strong>: Un elemento que envuelve todo el contenido de la página para aplicar estilos comunes.</li>
+            <li><strong>Cabecera (header)</strong>: Contiene el título de la página y elementos de navegación.</li>
+            <li><strong>Contenido (content)</strong>: La parte principal de la página donde se muestra la información.</li>
+            <li><strong>Menú (menu)</strong>: Una lista de enlaces que permiten navegar por la página o el sitio web.</li>
+            <li><strong>Pie (footer)</strong>: Sección al final de la página que suele contener información de contacto y derechos de autor.</li>
+            <li><strong>Lateral (sidebar)</strong>: Área adicional a un lado del contenido principal, que puede contener enlaces, información o anuncios.</li>
+            <li><strong>Etiqueta div</strong>: Un contenedor genérico utilizado para agrupar otros elementos y aplicar estilos.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Estructuración Semántica de una Página Web</h2>
+        <ul>
+            <li><strong>&lt;header&gt;</strong>: Contiene información introductoria y navegación.</li>
+            <li><strong>&lt;nav&gt;</strong>: Define un conjunto de enlaces de navegación.</li>
+            <li><strong>&lt;main&gt;</strong>: Representa el contenido principal de la página.</li>
+            <li><strong>&lt;article&gt;</strong>: Define contenido independiente que puede ser distribuido de manera independiente (ej. un artículo de blog).</li>
+            <li><strong>&lt;section&gt;</strong>: Agrupa contenido relacionado dentro del documento.</li>
+            <li><strong>&lt;aside&gt;</strong>: Contenido relacionado, como una barra lateral o un bloque de información adicional.</li>
+            <li><strong>&lt;footer&gt;</strong>: Contiene información de pie de página, como derechos de autor.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
